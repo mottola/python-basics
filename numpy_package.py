@@ -39,4 +39,20 @@ print(np_weight)
 bmi = np_weight / np_height ** 2
 print(bmi)
 
+# NUMPY ARRAYS CAN CONTAIN ONLY ONE TYPE
+# IF YOU PUT SEVERAL TYPES, TYPE COERCION WILL OCCUR
 
+# NUMPY COMES WITH INS OWN METHODS
+
+# BE CAREFUL, NUMPY METHODS DIFFER FROM THAT OF LISTS
+# FOR EXAMPLE:
+python_list = [1, 2, 3]
+
+numpy_array = np.array([1, 2, 3])
+
+print(python_list + python_list)  # CONCATENATES THE LISTS [1, 2, 3, 1, 2, 3]
+print(numpy_array + numpy_array)  # COMBINES ARRAY INDICES [2, 4, 6]
+
+print(bmi[1])  # PRINTS BMI AT INDEX 1
+
+print(bmi > 23)  # PRINTS THE ARRAY WITH BOOLEAN CHECKS FOR CONDITION AT EACH INDEX

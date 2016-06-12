@@ -1,8 +1,11 @@
 <component name="ProjectDictionaryState">
   <dictionary name="mottola">
     <words>
+      <w>corrcoef</w>
       <w>matplotlib</w>
+      <w>ndarray</w>
       <w>scikit</w>
+      <w>subsetting</w>
     </words>
   </dictionary>
 </component>
